@@ -4,6 +4,6 @@ import { pluginReact } from "@rsbuild/plugin-react";
 export default defineConfig({
   plugins: [pluginReact()],
   html: {
-    title: "Colombia tierra querida 🇨🇴",
+    title: "La maravillosa Colombia 🇨🇴",
   },
 });

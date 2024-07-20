@@ -17,8 +17,6 @@ const App = () => {
     getColombiaCountry().then((country) => {
       setCountry(country);
     });
-
-    console.log(country?.flags);
   }, []);
 
   if (!country) {
